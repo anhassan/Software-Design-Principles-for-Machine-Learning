@@ -1,7 +1,7 @@
 # Software Design Principles for Machine Learning
 
 # Introduction
-`
+
 Data Scientists are often accustomed to writing code for proof of concepts or developing prototypes as most of their time is involved in research and lesser part of their time is involved in actual development. Hence, the code they come up with does work well but is not the most optimized version. In production environment it is desired that the code deployed is clean and optimized in order to reduce the cost to change and maintain Machine learning (ML) infrastructure.  However, in order to write production level Machine learning pipelines, it is essential that the code implemented adheres to essential software principles because ML software is software after all and it requires changes and updates. Adhering to software principles not only makes sure that the code implemented is clean and its quality is up to the mark but also reduces the cost of change and also increases the optimal responsiveness to change of machine learning pipelines. This repository demonstrates how easily it is to incorporate software design principles specifically SOLID principles in ML pipelines and how these principles can get violated and cause problem related to robustness when there arises a need for change in the code base.
 
 # Design and Implementation
